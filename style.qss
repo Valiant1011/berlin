@@ -1,0 +1,121 @@
+/*--------------MAIN LAYOUT STARTS----------------*/
+QWidget#main_widget
+{
+	color : #CCCCCC;
+	background-color : #131217;
+}
+
+QWidget#chat_box
+{
+	border : 1px solid #00A1AD;
+	color : #CCCCCC;
+	background-color : #131217;
+}
+
+QPushButton#interior_button{
+	font-size : 14px;
+	text-align : center; 	
+	border : 1px solid #00A1AD;
+	background-color : #202428 ;
+	color : #62C9F3;
+}
+QPushButton#interior_button::focus
+{
+	color : #00C9D8;
+	background-color : #2B2C39 ;
+}
+QPushButton#interior_button::hover::focus
+{
+	color : #00C9D8;
+	background-color : #2B2C39 ;
+}
+QPushButton#interior_button::pressed
+{
+	color : #008080;
+	background-color : #202428;
+}
+QPushButton#interior_button::hover
+{
+	color : #A7F9FF;
+	background-color : #202428 ;
+}
+QPushButton#interior_button::disabled{
+	color: #E91E63;
+}
+QPushButton#interior_button::!enabled{
+	color: #E91E63;
+}
+
+QLabel#h1{
+	color : #ADFF2F;
+	font-size : 28px;
+}
+QLabel#h2{
+	color : #23B2EE;
+	font-size : 20px;
+}
+QLabel#h3{
+	color : #999999;
+	font-size : 16px;
+}
+QLabel#ai_response{
+	color : #23B2EE;
+	font-size : 15px;
+	background-color : #18161D;
+	border : 1px solid #D45F5A;
+	border-radius : 10px;
+}
+QLabel#user_input{
+	color : #ADFF2F;
+	font-size : 15px;
+	background-color : #18161D;
+	border : 1px solid #A7F9FF;
+	border-radius : 10px;
+}
+
+QLineEdit
+{
+	height : 30px;
+	background : #2D353D;
+	color : #AAAAAA;
+	border : 1px solid #171B1F;
+}
+
+QScrollArea QWidget
+{
+	background-color : #171B1F;
+}
+
+QToolTip
+{
+	color : #AAAAAA;
+	background : #2D353D;
+}
+
+QScrollBar:horizontal
+{
+	height : 0px;
+}
+QScrollBar:vertical{
+	margin-left : 1px;
+	width : 15px;
+	background-color : #121212;	
+	border: 1px solid #121212;
+}
+QScrollBar::handle:vertical{
+	background : #23b2ee;
+	width : 25px;
+	min-height : 70px;
+	margin-left : 0px;
+	margin-top : 1px;
+	margin-bottom : 1px;
+	margin-right : 0px;
+	border : 1px solid #00D0E5;
+	border-radius : 10px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+	width : 0px;
+	height : 0px;
+}
+
+/*--------------MAIN LAYOUT ENDS----------------*/
